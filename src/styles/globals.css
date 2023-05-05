@@ -2,5 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+@media only screen and (max-width: 600px) {
+  .mobile-container {
+    max-width: 1200px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .desktop-container {
+    max-width: 1200px;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .curved{
+    display:none;
+  }
+}
 
+.curved {
+  position: relative;
+  background: #D1D1D1;
+  height: 25vh;
+  border-bottom-left-radius: 50% 100%;
+  border-bottom-right-radius: 50% 100%;
+}
 
