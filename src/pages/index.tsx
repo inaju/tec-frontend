@@ -6,14 +6,17 @@ import { container } from "@/styles/styles";
 import InfoCard from "@/components/InfoCard";
 import SecondInfoCard from "@/components/SecondInfoCard";
 import PutYourMoney from "@/components/PutYourMoney";
+import Hero from "@/components/hero";
 
 export default function Home() {
   return (
     <main className={` w-full`}>
       <div className=" ">
+        <Hero image={"./images/unsplash_hero_1.jpg"} />
+        {/* <Hero image={"./images/unsplash_hero.png"} /> */}
         <div
-          className="px-8  mx-auto  sm:px-6 lg:px-[60px] 
-      xl:px-[90px]  mx-auto bg-[#D1D1D1] lg:pt-[6.8125rem] "
+          className="px-8  mx-auto sm:px-6 lg:px-[60px] 
+      xl:px-[90px] mx-auto lg:pt-[6.8125rem] bg-[#D1D1D1] "
         >
           <InfoCard />
           <SecondInfoCard />
@@ -22,10 +25,23 @@ export default function Home() {
           <div className="absolute top-0 curved"></div>
         </div>
         <div
-          className=" bg-black/[0.85]  xl:pb-28 px-8  mx-auto  sm:px-6 lg:px-[60px] 
-      xl:px-[90px]  mx-auto py-20 lg:py-16 lg:pt-[6.8125rem]"
+          className=" xl:pb-28 px-8  mx-auto  sm:px-6 lg:px-[60px] 
+      xl:px-[90px] mx-auto lg:pt-[6.8125rem]  py-20  
+      bg-black/[0.85]"
         >
           <PutYourMoney />
+        </div>
+        <div
+          className="flex flex-col items-center text-center lg:max-w-[850px]
+            xl:pb-28 px-8  mx-auto  sm:px-6 lg:px-[60px] 
+      xl:px-[90px] mx-auto lg:pt-[6.8125rem]  py-20  lg:py-26 bg-white"
+        >
+          <h2 className="text-[2.5rem] mb-6  font-bold">Statement of faith</h2>
+          <p className="montserrat font-light text-[1.25rem] leading-8">
+            Our mandate is revival and our language is a continued commitment to
+            the Word and to Prayer. With your partnership, we can take this fire
+            to reach more people in more nations.
+          </p>
         </div>
       </div>
     </main>

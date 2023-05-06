@@ -26,7 +26,7 @@ export const InfoCardData: IInfoCard[] = [
     reach more people in more nations.`,
   },
   {
-    image_one: "./images/arrow_chart.png",
+    image_one: "./images/arrow_chart.jpg",
     image_two: "./images/woman_bible.png",
     title: "Put your Money where your Faith is",
     text: `In The Equipping Church, we give not out of compulsion or fear but 
