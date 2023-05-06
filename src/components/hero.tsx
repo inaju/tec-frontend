@@ -16,7 +16,7 @@ const Hero = ({ image }: Props) => {
         />
       </div>
       <div className="flex flex-col items-center p-6 absolute transform 
-      top-[70%] lg:top-[65%] left-[50%]  w-full translate-y-[-50%]
+      top-[60%] lg:top-[65%] left-[50%]  w-full translate-y-[-50%]
        translate-x-[-50%]">
         <h2 className="mx-auto text-center text-[40px] lg:text-[60px] 
         font-bold text-white ">

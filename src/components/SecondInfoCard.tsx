@@ -20,7 +20,7 @@ const SecondInfoCard = (props: Props) => {
           src="./images/man_holding_bible.png"
           className="relative top-[10px]
         right-[10px]  sm:top-[20px] lg:top-[30px] lg:right-[20px]
-        lg:max-w-[500px] xl:max-w-[600px]"
+        sm:max-w-[350px] lg:max-w-[500px] xl:max-w-[600px]"
         />
       </div>
     </div>

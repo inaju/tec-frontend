@@ -8,6 +8,7 @@ import SecondInfoCard from "@/components/SecondInfoCard";
 import PutYourMoney from "@/components/PutYourMoney";
 import Hero from "@/components/hero";
 import TopBar from "@/components/topbar";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
@@ -45,6 +46,7 @@ export default function Home() {
           </p>
         </div>
       </div>
+      <Footer />
     </main>
   );
 }
