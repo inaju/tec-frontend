@@ -9,8 +9,8 @@ type Props = {};
 const InfoCard = (props: Props) => {
   return (
     <div
-      className={`${container} desktop-container  lg:mx-auto sm:flex 
-    sm:flex-row sm:justify-between sm:items-start `}
+      className={`${container} desktop-container lg:mx-auto 
+      sm:flex sm:flex-row sm:justify-between sm:items-center `}
     >
       <InfoCardImages
         image_one={InfoCardData[0].image_one}

@@ -2,7 +2,7 @@ import React from "react";
 
 type Props = {};
 
-const logo = (props: Props) => {
+const Logo = (props: Props) => {
   return (
     <svg
       width="106"
@@ -54,4 +54,4 @@ const logo = (props: Props) => {
   );
 };
 
-export default logo;
+export default Logo;

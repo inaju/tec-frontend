@@ -17,7 +17,7 @@ const InfoCardText = ({title,text,location}: IInfoCard) => {
        montserrat font-light text-[1.25rem] leading-8`}>
       {text}
       </p>
-      <Button location={location} text={location=="put_your_money" ? "Give now":"sermon"} color="#21242B" link="/sermon"
+      <Button location={location} text={location=="put_your_money" ? "Give now":"Sermon"} color="#21242B" link="/Sermon"
         />
     </div>
   );

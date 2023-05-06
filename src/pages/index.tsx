@@ -7,15 +7,16 @@ import InfoCard from "@/components/InfoCard";
 import SecondInfoCard from "@/components/SecondInfoCard";
 import PutYourMoney from "@/components/PutYourMoney";
 import Hero from "@/components/hero";
+import TopBar from "@/components/topbar";
 
 export default function Home() {
   return (
     <main className={` w-full`}>
+      <TopBar />
       <div className=" ">
         <Hero image={"./images/unsplash_hero_1.jpg"} />
-        {/* <Hero image={"./images/unsplash_hero.png"} /> */}
         <div
-          className="px-8  mx-auto sm:px-6 lg:px-[60px] 
+          className=" pt-10 px-8  mx-auto sm:px-6 lg:px-[60px] 
       xl:px-[90px] mx-auto lg:pt-[6.8125rem] bg-[#D1D1D1] "
         >
           <InfoCard />
