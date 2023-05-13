@@ -17,7 +17,7 @@ const SecondInfoCard = (props: Props) => {
       <InfoCardText title={InfoCardData[1].title} text={InfoCardData[1].text} />
       <div className="order-first sm:order-last relative bg-black mt-10 rounded-[8px] lg:rounded-[15px] mb-10">
         <img
-          src="./images/man_holding_bible.png"
+        src="./images/man_holding_bible.png"
           className="relative top-[10px]
         right-[10px]  sm:top-[20px] lg:top-[30px] lg:right-[20px]
         sm:max-w-[350px] lg:max-w-[500px] xl:max-w-[600px]"

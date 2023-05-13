@@ -4,19 +4,22 @@ import InfoCardText from "./InfoCardText";
 import { InfoCardData } from "@/data/home";
 import { container } from "@/styles/styles";
 
-type Props = {};
+ interface IInfoCard {
+  index:number
 
-const InfoCard = (props: Props) => {
+}
+const InfoCard = ({index}: IInfoCard) => {
   return (
     <div
       className={`${container} desktop-container lg:mx-auto 
       sm:flex sm:flex-row sm:justify-between sm:items-center `}
     >
       <InfoCardImages
-        image_one={InfoCardData[0].image_one}
-        image_two={InfoCardData[0].image_two}
+        image_one={InfoCardData[index].image_one}
+        image_two={InfoCardData[index].image_two}
       />
-      <InfoCardText title={InfoCardData[0].title} text={InfoCardData[0].text} />
+      <InfoCardText title={InfoCardData[index].title} text={InfoCardData[index].text}
+      buttonText={InfoCardData[index].buttonText} buttonColor={InfoCardData[index].buttonColor} buttonLink={InfoCardData[index].buttonLink}  />
     </div>
   );
 };

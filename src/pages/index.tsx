@@ -15,19 +15,19 @@ export default function Home() {
     <main className={` w-full`}>
       <TopBar />
       <div className=" ">
-        <Hero image={"./images/unsplash_hero_1.jpg"} />
+        <Hero image={"./images/unsplash_hero_3.jpg"}  text={"Men Saved, Men Trained, Men Sent"}/>
         <div
-          className=" pt-10 px-8  mx-auto sm:px-6 lg:px-[60px] 
+          className=" pt-10 px-8  sm:px-6 lg:px-[60px] 
       xl:px-[90px] mx-auto lg:pt-[6.8125rem] bg-[#D1D1D1] "
         >
-          <InfoCard />
+          <InfoCard index={0} />
           <SecondInfoCard />
         </div>
         <div className="relative bg-black/[0.85] ">
           <div className="absolute top-0 curved"></div>
         </div>
         <div
-          className=" xl:pb-28 px-8  mx-auto  sm:px-6 lg:px-[60px] 
+          className=" xl:pb-28 px-8   sm:px-6 lg:px-[60px] 
       xl:px-[90px] mx-auto lg:pt-[6.8125rem]  py-20  
       bg-black/[0.85]"
         >
@@ -35,7 +35,7 @@ export default function Home() {
         </div>
         <div
           className="flex flex-col items-center text-center lg:max-w-[850px]
-            xl:pb-28 px-8  mx-auto  sm:px-6 lg:px-[60px] 
+            xl:pb-28 px-8  sm:px-6 lg:px-[60px] 
       xl:px-[90px] mx-auto lg:pt-[6.8125rem]  py-20  lg:py-26 bg-white"
         >
           <h2 className="text-[2.5rem] mb-6  font-bold">Statement of faith</h2>

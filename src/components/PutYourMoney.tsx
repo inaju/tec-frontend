@@ -14,8 +14,7 @@ const PutYourMoney = (props: Props) => {
         image_one={InfoCardData[2].image_one}
         image_two={InfoCardData[2].image_two}
       />
-      <InfoCardText title={InfoCardData[2].title} text={InfoCardData[2].text} 
-       location="put_your_money"/>
+      <InfoCardText title={InfoCardData[2].title} text={InfoCardData[2].text} buttonText={InfoCardData[2].buttonText} buttonColor={InfoCardData[2].buttonColor} buttonLink={InfoCardData[2].buttonLink} location="put_your_money" />
 
     </div>
   )

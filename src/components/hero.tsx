@@ -3,9 +3,11 @@ import Button from "./button";
 
 type Props = {
   image: string;
+  text: string;
+  hideButton?: boolean;
 };
 
-const Hero = ({ image }: Props) => {
+const Hero = ({ image,hideButton,text }: Props) => {
   return (
     <div>
       <div className="w-full h-[100vh] relative ">
@@ -20,9 +22,12 @@ const Hero = ({ image }: Props) => {
        translate-x-[-50%]">
         <h2 className="mx-auto text-center text-[40px] lg:text-[60px] 
         font-bold text-white ">
-          Men Saved, Men Trained, Men Sent{" "}
+          {text}
+          {" "}
         </h2>
+        {hideButton ??
         <Button text="Latest Sermon" location="put_your_money" />
+        }
       </div>
     </div>
   );

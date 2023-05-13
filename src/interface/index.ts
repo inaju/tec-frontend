@@ -4,4 +4,8 @@ export interface IInfoCard {
     image_one?:string,
     image_two?:string
     location?:string
+    textColor?:string;
+    buttonText?:string;
+    buttonColor?:string;
+    buttonLink?:string;
 }
