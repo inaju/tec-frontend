@@ -45,7 +45,7 @@ const About = (props: Props) => {
           <p>Celebrating unlimited life in Jesus</p>
           <p>
             Christ demands that you</p>
-          <div className="flex flex-col lg:flex-row mt-10 mb-20 gap-10">
+          <div className="flex flex-col lg:flex-row mt-10 mb-20 gap-10 p-2">
             {ApproachData.map((i) => (
               <ApproachCards bgColor={i.bgColor} title={i.title} text={i.text} />
             ))}

@@ -10,7 +10,7 @@ const OurVision = (props: Props) => {
         <div className=' max-w-[1300px] px-10 mx-auto'>
           <h2 className="text-white text-[55px] leading-10 mb-10 font-semibold lg:font-bold text-center mt-2">Vision</h2>
           {/* first */}
-          <div className="flex flex-col sm:flex-row sm:justify-between p-10 w-full ">
+          <div className="flex flex-col sm:flex-row sm:justify-between lg:p-10 w-full ">
             <InfoCardText location="about" textColor="white" title={InfoCardData[4].title} text={InfoCardData[4].text} buttonText={InfoCardData[4].buttonText} buttonColor={InfoCardData[4].buttonColor} buttonLink={InfoCardData[4].buttonLink} />
             <div className="order-first   bg-black mt-4 rounded-[8px] lg:rounded-[15px] mb-10">
               <img
