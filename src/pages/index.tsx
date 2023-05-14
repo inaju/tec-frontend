@@ -15,7 +15,8 @@ export default function Home() {
     <main className={` w-full`}>
       <TopBar />
       <div className=" ">
-        <Hero image={"./images/unsplash_hero_3.jpg"}  text={"Men Saved, Men Trained, Men Sent"}/>
+        <Hero image={"./images/unsplash_hero_3.jpg"}  text={"Men Saved, Men Trained, Men Sent"}
+        buttonLink="/sermon"/>
         <div
           className=" pt-10 px-8  sm:px-6 lg:px-[60px] 
       xl:px-[90px] mx-auto lg:pt-[6.8125rem] bg-[#D1D1D1] "

@@ -1,6 +1,7 @@
 import React from "react";
 import Emailicon from "./svg/emailicon";
 import Locationicon from "./svg/locationicon";
+import Link from "next/link";
 
 type Props = {};
 
@@ -10,36 +11,40 @@ const Footer = (props: Props) => {
      text-white flex flex-col md:flex-wrap md:flex-row justify-between">
         <div className="flex flex-col gap-6">
           <h2 className="text-[30px] font-bold">Connect with us</h2>
-          {/* <div>
-            <Facebookicon />
-            <Instagramicon />
-            <Linkedin />
-            <Twittericon />
-
-          </div> */}
+         
           <div className="text-[16px] flex flex-col gap-4">
 
           <span className="flex items-center gap-2">
             <Emailicon /> theequipingcenter@gmail.com</span>
           <span className="flex items-center gap-2">
-             <Locationicon /> Lorem ipsum dolor sit amet consectetur. </span>
+             <Locationicon /> 11832 S. Warner Elliot LoopPhoenix, AZ 85044 </span>
           </div>
 
         </div>
         <div className="flex flex-col ">
           <h2 className="text-[30px] font-bold">Quick Links</h2>
-          <div className="text-[16px] flex flex-col gap-4">
+          <div className="text-[16px] flex flex-col gap-4 mt-4">
 
-        <p>About Us</p>
-        <p>Sermons</p>
-        <p>Contact Us</p>
+          <Link href="/give" prefetch={true}>
         <p>Give</p>
+        </Link>
+        <Link href="/about" prefetch={true}>
+        <p>About Us</p>
+        </Link>
+        <Link href="/sermon" prefetch={true}>
+        <p>Sermons</p>
+        </Link>
+        <Link href="/contact" prefetch={true}>
+        <p>Contact Us</p>
+        </Link>
+
+       
 
         </div>
           </div>
           <div className="flex flex-col">
           <h2 className="text-[30px] font-bold">Join Our Mailing List</h2>
-          <div className="text-[16px] flex flex-col gap-4">
+          <div className="text-[16px] flex flex-col gap-4 mt-4">
 
             <p>Subscribe to our newsletter to get our latest updates and news</p>
           </div>

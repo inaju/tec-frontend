@@ -2,8 +2,8 @@ import { IInfoCard } from "@/interface";
 
 export const InfoCardData: IInfoCard[] = [
   {
-    image_one: "./images/man_bible.png",
-    image_two: "./images/mic_image.png",
+    image_one: "./images/woman_mic.jpg",
+    image_two: "./images/fiyin_praying.jpg",
     title: "We Train A People For Christ",
     text: `“All scripture is given by inspiration of God and is useful 
     for doctrine, for reproof, for correction and for training in 
@@ -21,8 +21,7 @@ export const InfoCardData: IInfoCard[] = [
      buttonLink: "/sermon",
   },
   {
-    image_one: "./images/man_bible.png",
-    image_two: "./images/mic_image.png",
+    image_one: "./images/woman_in_white.jpg",
     title: "We redeploy a people with joy",
     text: `Our mandate is revival and our language is a continued commitment to 
     the Word and to Prayer. With your partnership, we can take this fire to 
@@ -32,8 +31,8 @@ export const InfoCardData: IInfoCard[] = [
     buttonLink: "/give",
   },
   {
-    image_one: "./images/arrow_chart.jpg",
-    image_two: "./images/woman_bible.png",
+    image_one: "./images/boy_sax.jpg",
+    image_two: "./images/girl_knees.jpg",
     title: "Put your Money where your Faith is",
     text: `In The Equipping Church, we give not out of compulsion or fear but 
     a desire to see the gospel prosper in our day. Partner with us today. 
@@ -43,8 +42,8 @@ export const InfoCardData: IInfoCard[] = [
     buttonLink: "/give",
   },
   {
-    image_one: "./images/arrow_chart.jpg",
-    image_two: "./images/woman_bible.png",
+    image_one: "./images/setemi_in_view.jpg",
+    image_two: "./images/pastor_1.jpg",
     title: "Who we are",
     text: `Lorem ipsum dolor sit amet consectetur. 
     Sit et in fusce eu cursus posuere nunc commodo.
@@ -65,6 +64,8 @@ export const InfoCardData: IInfoCard[] = [
     buttonLink: "/sermon",
   },
   {
+    image_one: "./images/promise_bolu.jpg",
+
     title: "Presenting the gospel to the unsaved",
     text: `Lorem ipsum dolor sit amet consectetur. 
     Sit et in fusce eu cursus posuere nunc commodo.
@@ -84,6 +85,8 @@ export const InfoCardData: IInfoCard[] = [
     buttonLink: "/sermon",
   },
   {
+    image_one: "./images/woman_tongues.jpg",
+
     title: "Making ministry gifts out of saints",
     text: `Lorem ipsum dolor sit amet consectetur. 
     Sit et in fusce eu cursus posuere nunc commodo.
@@ -103,6 +106,8 @@ export const InfoCardData: IInfoCard[] = [
     buttonLink: "/contact",
   },
   {
+    image_one: "./images/bajo_praying.jpg",
+
     title: "Deploy the trained to do all God has said for them to do",
     text: `Lorem ipsum dolor sit amet consectetur. 
     Sit et in fusce eu cursus posuere nunc commodo.

@@ -19,7 +19,7 @@ const InfoCardImages = ({ image_one, image_two }: IInfoCard) => {
         <img
           alt="man holding a bible"
           src={image_one}
-          className="w-full h-full relative rounded-[0.9375rem] 
+          className="object-cover w-full h-full relative rounded-[0.9375rem] 
           lg:rounded-[1.875rem]"
         />
       </div>
@@ -27,7 +27,7 @@ const InfoCardImages = ({ image_one, image_two }: IInfoCard) => {
         className={`${imageDimensions} absolute top-[6.25rem] xl:top-[9.25rem] 
         mb-10`}
       >
-        <img alt="microphone image" src={image_two} className="w-full h-full 
+        <img alt="microphone image" src={image_two} className="object-cover w-full h-full 
         rounded-[0.9375rem] lg:rounded-[1.875rem]" />
       </div>
     </div>

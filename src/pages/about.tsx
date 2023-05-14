@@ -34,6 +34,7 @@ const About = (props: Props) => {
           image={"./images/unsplash_hero_2.jpg"}
           hideButton={true}
           text="About The Equipping Center"
+          
         />
         <div
           className=" pt-10 px-8 sm:px-6 lg:px-[60px] xl:px-[90px] mx-auto lg:pt-[6.8125rem] bg-white ">
