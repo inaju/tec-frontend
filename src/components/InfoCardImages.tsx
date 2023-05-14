@@ -2,7 +2,7 @@ import { IInfoCard } from "@/interface";
 import React from "react";
 
 const InfoCardImages = ({ image_one, image_two }: IInfoCard) => {
-  const imageDimensions = `min-w-[14rem]  
+  const imageDimensions = `min-w-[14rem]  max-w-[18.5rem] 
   h-[14.625rem] sm:h-[15rem] sm:min-w-[17rem]   sm:max-w-[29rem] sm:w-full sm:h-full
    sm:object-contain lg:w-[340px] lg:h-[320px] xl:w-[430px] xl:h-[420px]`;
   return (

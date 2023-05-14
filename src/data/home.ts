@@ -31,8 +31,9 @@ export const InfoCardData: IInfoCard[] = [
     buttonLink: "/give",
   },
   {
-    image_one: "./images/boy_sax.jpg",
-    image_two: "./images/girl_knees.jpg",
+    image_one: "./images/people_outside.jpg",
+    image_two: "./images/crested_worship.jpg",
+    // image_two: "./images/girl_knees.jpg",
     title: "Put your Money where your Faith is",
     text: `In The Equipping Church, we give not out of compulsion or fear but 
     a desire to see the gospel prosper in our day. Partner with us today. 
