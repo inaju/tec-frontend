@@ -48,6 +48,10 @@ const Footer = (props: Props) => {
 
             <p>Subscribe to our newsletter to get our latest updates and news</p>
           </div>
+          <div className="flex flex-row justify-between bg-white rounded-[10px] mt-2">
+            <input type="email" className="outline-none border-none p-3 mx-6 text-black" placeholder="your email address" />
+
+          </div>
           </div>
 
     </div>

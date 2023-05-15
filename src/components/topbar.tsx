@@ -36,8 +36,8 @@ const TopBar = () => {
             />
           </div>
           <div
-            className=" py-[100px] px-10 text-xl text-left h-full w-full text-white flex flex-col justify-between  
-        items-center flex-start gap-8 hover:cursor-pointer "
+            className=" py-[100px] px-10 text-xl text-left h-full w-full text-white flex flex-col 
+        items-center flex-start gap-14 hover:cursor-pointer "
           >
             <Link href="/" prefetch={true}>
               <p>Home</p>
